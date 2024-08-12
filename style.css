@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(220, 108, 255);
+    color: rgb(49, 234, 234);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#food-wastage {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#image {
+    float: left;
+    margin-right: 10px;
+}
+
+#description {
+    float: right;
+    max-width: 60%;
+}
+
+#new-section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#new-section img {
+    display: block;
+    margin: 10px auto;
+}
+
+#reviews {
+    clear: both;
+    margin-top: 20px;
+}
+
+#reviews ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#reviews li {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
